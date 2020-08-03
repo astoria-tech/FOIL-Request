@@ -2,11 +2,11 @@
 
 How to file a Freedom of Information Law Request in New York State 
 
-###Welcome
+### Welcome
 
 This project was created by members of the Astoria Digital team, a group of software engineers and designers making things to help their neighborhood. 
 
-###About this project
+### About this project
 
 This project explains the Freedom of Information Law Request process in New York State, the process is illustrated by the request letter and the appeal letter. Everything you need to know about the process is included in these letters, and the annotations in the letters serve to give context about the process. The site also includes links to resources to complete requests and get more information and advice from groups that are dedicated to government accountability and transparency.  
 
@@ -16,7 +16,7 @@ An important tool in making records available is the Freedom of Information Law 
 
 After her research, Ania found that as someone without a journalism or law background, the process could be overwhelming. She also found that and there are problems in the system that activists would be interested in knowing. The goal of the project is to teach  the FOIL request process and provide resources to complete a request and understand the system in order to improve it.
 
-###Team members
+### Team members
 
 Ania [researched](https://docs.google.com/document/d/1TshUYKxeS_TzChjOFm8ZvY-kHKq_kg94msalWKY3Al8/edit?usp=sharing) and wrote the copy of the website, and created the [wireframes](https://www.figma.com/file/bEPQchkNVnfYuQSui4FgNT/FOIL-Request?node-id=0%3A1) of the design of the site. 
 
@@ -24,13 +24,13 @@ Chris developed the website.
 
 Alex created the branding for Astoria Digital, which was incorporated into the final design.
 
-###How to help
+### How to help
 
 If you find any incorrect or imprecise information in the text of the site, [please reach out to us!](mailto:team@astoria.digital)
 
 We would like to share this tool so it can supplement the resources that are out there, if you know of a way to help it reach more people we'd be excited to hear it!
 
-###Contact us
+### Contact us
 
 team@astoria.digital
 
