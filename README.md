@@ -34,7 +34,7 @@ We would like to share this tool so it can supplement the resources that are out
 
 team@astoria.digital
 
-astoria.digital
+https://astoria.digital
 
 
 
