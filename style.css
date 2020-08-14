@@ -1,4 +1,468 @@
-body {
+
+
+/* Typography */
+
+/*
+
+DM Mono
+light 300
+light 300 italic
+regular 400
+regular 400 italic
+medium 500
+medium 500 italic
+
+*/ 
+
+    html{
+        font-size: 18px;
+    }
+
+    body {
+        font-family: 'DM Mono', Courier, monospace;
+    }
+
+    h1 {
+        font-family: 'Fjalla One', Helvetica, sans-serif;
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Fjalla One', Helvetica, sans-serif;
+        font-size: 3em;
+        font-style: regular;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        line-height: 1.5em;
+    }
+
+    a {
+        line-height: 1.5em;
+    }
+
+    dt {
+        font-weight: 500;
+        font-size: 1.25em;
+    }
+
+    dd {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1em;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ol {
+        list-style-type: '-';
+    }
+
+    .letter-segment__heading {
+        font-weight: 500;
+        font-style: medium;
+        font-size: 1em;
+        line-height: 1.25em;
+        text-align: right;
+    }
+
+    .letter-segment__body {
+        font-family: 'DM Mono', Courier, monospace;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .letter-segment__annotation {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1em;
+        line-height: 1.25em;
+    }
+
+    .foil-overview__annotation {
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1em;
+        line-height: 1.25em;
+        
+    }
+
+.foil-overview ol{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+   
+ /* Links */ 
+
+a {
+    text-decoration: none;
+    border-bottom: .1em solid;
+    color: black;
+ }
+
+
+a:link {
 
 }
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: none;
+     /* how do i give it a bit of space at the left and right of the word?*/
+    color: white;
+    background-color: black;
+    
+}
+
+a:active {
+
+}   
+
+
+/* Color 
+
+gray #DAD7CF
+yellow #FFDA00
+blue #2077C7
+orange #FF7A00
+
+*/
+
+    body {
+        background-color: #DAD7CF;
+        color: black;
+    }
+
+    .letter-segment__body {
+        background-color: white;
+}
+   
+
+/* Layout */
+
+*{
+    box-sizing: border-box;
+    /* width and height includes padding and border */
+  }
+
+  body {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 2em;
+  }
+
+  h1 {
+      padding-bottom: 1em;
+      padding-top: 1em;
+      }
+
+  h2 {
+     padding-bottom: 1em;
+     padding-top: 1em;
+  }
+  
+ li {
+    padding-bottom: .5em;
+}
+
+header {
+    border-bottom: .1em dashed black;
+}
+
+header h1 {
+    text-align: left;
+}
+
+dl {
+    margin: 1em;
+}
+
+  dt {
+    margin-bottom: 1em;
+    margin: 1em;
+     }
+
+  dd {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    }
+
+ ol {
+     padding-left: 2em;
+     padding-right: 2em;
+ }
+
+
+/*  Resources */
+
+.resources {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.resources-term {
+    flex: 1 200px;
+    text-align: right;
+}
+
+.resources-definition {
+    flex: 3 200px;
+}
+
+/* Introduction */
+
+#introduction {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.introduction-term {
+flex: 3 200px;
+}
+
+.introduction-definition{
+    flex: 1 200px;
+}
+
+/* Letter Segment */
+
+.letter-segment {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.letter-segment__heading {
+    flex: 1 100px;
+}
+
+.letter-segment__body {
+    padding: 4em;
+    margin: 1em;
+    flex: 3 100px;
+    align-self: stretch;
+}
+
+.letter-segment__annotation {
+    flex: 1 100px;
+    align-self: flex-end;
+}
+
+/* About */
+
+.about {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+/* Conclusion */
+
+.conclusion {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+/* Header */
+
+header {
+
+}
+
+
+/* Footer */ 
+
+footer {
+    padding-top: 2em;
+    padding-bottom:1em;
+    border-top: .1em dashed black;      
+}
+
+.footer-navigation {
+  
+}
+
+.footer-branding {
+  max-width: 50%;
+  margin: 0 auto;
+  padding-left: 4em;
+  }
+
+
+
+/* FOIL Overview */
+
+#foil-overview__request-letter {
+    background-color: white;
+    font-family: 'DM Mono', Courier, monospace;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+#foil-overview__timely-appeal {
+    background-color: white;
+    font-family: 'DM Mono', Courier, monospace;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+#foil-overview__appeal-denial {
+    background-color: white;
+    font-family: 'DM Mono', Courier, monospace;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+/* Screen Sizes */
+
+/* Big Screens */
+
+@media screen and (min-width: 1000px) { 
+  
+    html {
+      font-size: 20px;
+    }
+
+    body {
+        
+    }
+}
+
+/* Small Screens*/
+
+@media only screen and (max-width: 500px) {
+  
+    html {
+          font-size: 15px;
+        }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 2em;
+        
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .letter {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .letter-segment__heading {
+            max-width: 75%;
+            padding-bottom: 1em;
+            padding-top: 2em;
+            text-align: left;
+       
+        }
+
+    
+    .letter-segment__body{
+        
+    }
+       
+    .letter-segment__annotation {
+            max-width: 75%;
+            text-align: right;
+    }   
+        
+    .conclusion{
+        margin-top: 4em;
+        font-weight: 500;
+        font-style: medium;
+    }
+    
+    #foil-overview__request-letter{
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+    
+    #foil-overview__timely-appeal {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #foil-overview__appeal-denial {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+.resources {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.letter-segment {
+    display: flex;
+    flex-direction: column;
+    }
+
+.resources-term {
+    text-align: left;
+}
+/* Make all links large enough to click them with your finger!!! */
+
+}
+
+
+
+
+    
+
+   
+
 

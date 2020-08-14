@@ -6,6 +6,8 @@ How to file a Freedom of Information Law Request in New York State
 
 This project was created by members of the Astoria Digital team, a group of software engineers and designers making things to help their neighborhood. 
 
+The goal of this project is to teach the FOIL request process, provide resources to complete a request, and understand the system in order to improve it.
+
 ### About this project
 
 This project explains the Freedom of Information Law Request process in New York State, the process is illustrated by the request letter and the appeal letter. Everything you need to know about the process is included in these letters, and the annotations in the letters serve to give context about the process. The site also includes links to resources to complete requests and get more information and advice from groups that are dedicated to government accountability and transparency.  
@@ -14,15 +16,15 @@ This project was taken on by the team after the repeal of 50-a. 50-a limited the
 
 An important tool in making records available is the Freedom of Information Law Request, which is the tool that all New Yorkers can use to request information from government agencies and any information they receive is made public. Since the FOIL request was such an important part of the process of keeping government agencies accountable, the team looked into resources that helped citizens make these requests. 
 
-After her research, Ania found that as someone without a journalism or law background, the process could be overwhelming. She also found that and there are problems in the system that activists would be interested in knowing. The goal of the project is to teach  the FOIL request process and provide resources to complete a request and understand the system in order to improve it.
+After her research, Ania found that as someone without a journalism or law background, the process could be overwhelming. She also found that and there are problems in the system that activists would be interested in knowing about. 
 
 ### Team members
 
-Ania [researched](https://docs.google.com/document/d/1TshUYKxeS_TzChjOFm8ZvY-kHKq_kg94msalWKY3Al8/edit?usp=sharing) and wrote the copy of the website, and created the [wireframes](https://www.figma.com/file/bEPQchkNVnfYuQSui4FgNT/FOIL-Request?node-id=0%3A1) of the design of the site. 
+Ania [researched](https://docs.google.com/document/d/1TshUYKxeS_TzChjOFm8ZvY-kHKq_kg94msalWKY3Al8/edit?usp=sharing) and wrote the copy of the website, and created the [wireframes](https://www.figma.com/file/bEPQchkNVnfYuQSui4FgNT/FOIL-Request?node-id=0%3A1) of the design of the site. She also developed the site, with Chris' help.  
 
-Chris developed the website. 
+Chris developed the website and very kindly helped Ania learn CSS and HTML. 
 
-Alex created the branding for Astoria Digital, which was incorporated into the final design.
+Alex created the [style guide](https://www.figma.com/file/LXKWblcPXToV1uVakYXbhB/Astoria-Digital) for Astoria Digital, which was incorporated into the final design.
 
 ### How to help
 
