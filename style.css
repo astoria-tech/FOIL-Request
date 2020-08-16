@@ -43,11 +43,11 @@ h3 {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 a {
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 dt {
@@ -73,7 +73,7 @@ ol {
   font-weight: 500;
   font-style: medium;
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.25;
   text-align: right;
 }
 
@@ -87,14 +87,14 @@ ol {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.25;
 }
 
 .foil-overview__annotation {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.25;
 
 }
 
@@ -222,12 +222,14 @@ ol {
 }
 
 .resources-term {
-  flex: 1 200px;
+  flex: 1 100px;
   text-align: right;
+  min-width: 25%;
 }
 
 .resources-definition {
   flex: 3 200px;
+  min-width: 50%;
 }
 
 /* Introduction */
@@ -244,10 +246,12 @@ ol {
 
 .introduction-term {
   flex: 3 200px;
+  min-width: 50%;
 }
 
 .introduction-definition{
-  flex: 1 200px;
+  flex: 1 100px;
+  min-width: 25%;
 }
 
 /* Letter Segment */
@@ -329,7 +333,7 @@ footer {
   padding-right: 2em;
   margin: 1em;
   text-align: center;
-  line-height: 2em;
+  line-height: 2;
 }
 
 #foil-overview__timely-appeal {
@@ -343,7 +347,7 @@ footer {
   padding-right: 2em;
   margin: 1em;
   text-align: center;
-  line-height: 2em;
+  line-height: 2;
 }
 
 #foil-overview__appeal-denial {
@@ -357,7 +361,7 @@ footer {
   padding-right: 2em;
   margin: 1em;
   text-align: center;
-  line-height: 2em;
+  line-height: 2;
 }
 
 /* Screen Sizes */
@@ -396,9 +400,9 @@ footer {
     font-size: 1.5em;
   }
 
-  .letter {
-    display:flex;
-    flex-direction: column;
+  .letter-segment {
+    display: flex;
+    flex-flow: column;
   }
 
   .letter-segment__heading {
@@ -406,17 +410,19 @@ footer {
     padding-bottom: 1em;
     padding-top: 2em;
     text-align: left;
-
+    flex: 1 15px;
   }
 
-
-  .letter-segment__body {
-
+.letter-segment__body {
+    padding: 4em;
+    margin: 1em;
+    flex: 1 15px;
   }
-
+  
   .letter-segment__annotation {
     max-width: 75%;
     text-align: right;
+    flex: 1 15px;
   }
 
   .conclusion{
