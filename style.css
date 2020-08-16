@@ -258,18 +258,18 @@ ol {
 }
 
 .letter-segment__heading {
-  flex: 1 100px;
+  flex: 1 25%;
 }
 
 .letter-segment__body {
   padding: 4em;
   margin: 1em;
-  flex: 3 100px;
+  flex: 3 calc(50% - 4em);
   align-self: stretch;
 }
 
 .letter-segment__annotation {
-  flex: 1 100px;
+  flex: 1 25%;
   align-self: flex-end;
 }
 
@@ -410,14 +410,14 @@ footer {
   }
 
 
-  .letter-segment__body{
+  .letter-segment__body {
 
   }
 
   .letter-segment__annotation {
     max-width: 75%;
     text-align: right;
-  }   
+  }
 
   .conclusion{
     margin-top: 4em;
