@@ -180,6 +180,12 @@ h2 {
   padding-top: 1em;
 }
 
+pre {
+  overflow: scroll;
+  max-width: 100%;
+}
+/* are pre tags worth it?*/
+
 li {
   padding-bottom: .5em;
 }
@@ -252,7 +258,7 @@ ol {
 .introduction-definition{
   flex: 1 100px;
   min-width: 25%;
-}
+ }
 
 /* Letter Segment */
 
@@ -374,9 +380,80 @@ footer {
     font-size: 20px;
   }
 
-  body {
+h1 {
+max-width: 50%;
+margin: 0 auto;
+}
 
-  }
+h2 {
+  max-width: 50%;
+  margin: 0 auto;
+}
+  
+.resources {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.about {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#introduction {
+  
+}
+
+.foil-overview {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+
+#foil-overview__request-letter {
+  flex: 1 25%;
+  min-width: 25%;
+  font-size: 1em;
+  align-self: start;
+  
+}
+
+.foil-overview__information {
+  flex: 3 50%;
+  min-width: 50%;
+}
+
+.foil-overview__annotation {
+
+}
+
+.foil-overview__list {
+
+}
+
+
+#foil-overview__timely-appeal {
+  flex: 1 25%;
+  min-width: 25%; 
+  font-size: 1em;
+  align-self: start;
+}
+
+#foil-overview__appeal-denial {
+  flex: 1 25%;
+  min-width: 25%; 
+  font-size: 1em;
+  align-self: start;
+}
+
+.conclusion {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
 }
 
 /* Small Screens*/
@@ -460,7 +537,6 @@ footer {
   .resources-term {
     text-align: left;
   }
-  /* Make all links large enough to click them with your finger!!! */
 
 }
 
