@@ -303,6 +303,36 @@ header {
 
 }
 
+/* Menu */
+
+.menu details > summary {
+  list-style: none;
+}
+
+.menu details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+.menu details[open] .icon__close {
+  display: block;
+}
+
+.icon__close,
+.menu details[open] .icon__menu {
+  display: none;
+}
+
+.accessibility-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 
 /* Footer */ 
 
