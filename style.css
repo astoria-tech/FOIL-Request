@@ -409,32 +409,17 @@ footer {
 
 @media screen and (min-width: 1000px) { 
 
-  html {
-    font-size: 20px;
-  }
-
-h1 {
-max-width: 50%;
-margin: 0 auto;
+html {
+  font-size: 20px;
 }
 
-h2 {
-  max-width: 50%;
-  margin: 0 auto;
-}
-  
-.resources {
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-.about {
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-#introduction {
-  
+h1, 
+  h2,
+    .resources,
+      .conclusion,
+        .about {
+          max-width: 50%;
+          margin: 0 auto;
 }
 
 .foil-overview {
@@ -458,15 +443,6 @@ h2 {
   min-width: 50%;
 }
 
-.foil-overview__annotation {
-
-}
-
-.foil-overview__list {
-
-}
-
-
 #foil-overview__timely-appeal {
   flex: 1 25%;
   min-width: 25%; 
@@ -481,13 +457,7 @@ h2 {
   align-self: start;
 }
 
-.conclusion {
-  max-width: 50%;
-  margin: 0 auto;
-}
 
-
-}
 
 /* Small Screens*/
 
