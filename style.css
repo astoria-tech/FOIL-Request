@@ -85,6 +85,7 @@ ol {
   font-size: 1em;
   line-height: 1.25;
   text-align: right;
+  font-family: 'DM Mono', Courier, monospace;
 }
 
 .letter-segment__body {
