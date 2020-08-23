@@ -75,8 +75,8 @@ ul {
   list-style: none;
 }
 
-ol {
-  list-style-type: '-';
+.foil-overview__list {
+  list-style-type: '- ';
 }
 
 .letter-segment__heading {
@@ -192,10 +192,6 @@ li {
   padding-bottom: .5em;
 }
 
-header {
-  border-bottom: .1em dashed black;
-}
-
 dl {
   margin: 1em;
 }
@@ -214,6 +210,8 @@ ol {
   padding-left: 2em;
   padding-right: 2em;
 }
+
+
 
 
 /*  Resources */
@@ -281,6 +279,11 @@ ol {
   align-self: flex-end;
 }
 
+.letter-segment__fill-in {
+  background-color: #DAD7CF;
+
+}
+
 /* About */
 
 .about {
@@ -297,11 +300,6 @@ ol {
   padding-bottom: 2em;
 }
 
-/* Header */
-
-header {
-
-}
 
 /* Menu */
 
@@ -339,7 +337,7 @@ summary:hover {
 footer {
   padding-top: 2em;
   padding-bottom: 1em;
-  border-top: 0.1em dashed black;
+
 }
 
 .copyright {
