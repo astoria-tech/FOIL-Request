@@ -238,7 +238,6 @@ ol {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  max-width: 75%;
   margin: 0 auto;
   padding-top: 2em;
 }
@@ -410,6 +409,10 @@ footer {
     min-width: 25%;
     font-size: 1em;
     align-self: start;
+  }
+
+  #introduction {
+    max-width: 75%;
   }
 
 }
