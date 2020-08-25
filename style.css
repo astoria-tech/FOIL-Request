@@ -115,6 +115,7 @@ ul {
   max-width: 50%;
   margin: 0 auto;
   text-align: right;
+  padding-top: 1em;
 }
 
 .back-to-top::before {
