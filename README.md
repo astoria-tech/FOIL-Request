@@ -32,6 +32,10 @@ If you find any incorrect or imprecise information in the text of the site, [ple
 
 We would like to share this tool so it can supplement the resources that are out there, if you know of a way to help it reach more people we'd be excited to hear it!
 
+### Installation
+
+If you'd like to run this site, download the files onto your computer and open them with your browser. You can edit them with a code editor like Visual Studio Code and create a pull request to suggest changes. 
+
 ### Contact us
 
 team@astoria.digital
