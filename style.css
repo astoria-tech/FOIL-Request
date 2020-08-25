@@ -10,7 +10,7 @@ regular 400 italic
 medium 500
 medium 500 italic
 
-*/
+ */
 
 html {
   font-size: 18px;
@@ -52,11 +52,8 @@ h3 {
   text-align: center;
 }
 
+a,
 p {
-  line-height: 1.5;
-}
-
-a {
   line-height: 1.5;
 }
 
@@ -109,12 +106,26 @@ ul {
 
 }
 
-.foil-overview ol{
+.foil-overview ol {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* Links */ 
+.back-to-top {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.back-to-top::before {
+  content: '^';
+  display: block;
+  font-size: 2em;
+  line-height: 0;
+  margin-right: 2ch;
+}
+
+/* Links */
 
 a {
   text-decoration: underline 0.1em solid;
@@ -146,7 +157,7 @@ a:active {
 }
 
 
-/* Color 
+/* Color
 
 gray #DAD7CF
 yellow #FFDA00
@@ -241,7 +252,6 @@ ol {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  max-width: 75%;
   margin: 0 auto;
   padding-top: 2em;
 }
@@ -251,10 +261,10 @@ ol {
   min-width: 50%;
 }
 
-.introduction-definition{
+.introduction-definition {
   flex: 1 100px;
   min-width: 25%;
- }
+}
 
 /* Letter Segment */
 
@@ -332,7 +342,7 @@ summary:hover {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* Footer */ 
+/* Footer */
 
 footer {
   padding-top: 2em;
@@ -359,35 +369,9 @@ footer {
 
 /* FOIL Overview */
 
+#foil-overview__appeal-denial,
+#foil-overview__timely-appeal,
 #foil-overview__request-letter {
-  background-color: white;
-  font-family: 'DM Mono', Courier, monospace;
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin: 1em;
-  text-align: center;
-  line-height: 2;
-}
-
-#foil-overview__timely-appeal {
-  background-color: white;
-  font-family: 'DM Mono', Courier, monospace;
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin: 1em;
-  text-align: center;
-  line-height: 2;
-}
-
-#foil-overview__appeal-denial {
   background-color: white;
   font-family: 'DM Mono', Courier, monospace;
   font-size: 1.25em;
@@ -405,55 +389,45 @@ footer {
 
 /* Big Screens */
 
-@media screen and (min-width: 1000px) { 
+@media screen and (min-width: 1000px) {
 
-html {
-  font-size: 20px;
-}
+  html {
+    font-size: 20px;
+  }
 
-h1, 
+  h1,
   h2,
-    .resources,
-      .conclusion,
-        .about {
-          max-width: 50%;
-          margin: 0 auto;
-}
+  .resources,
+  .conclusion,
+  .about {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 
-.foil-overview {
-  display: flex;
-  flex-flow: row wrap;
-  max-width: 75%;
-  margin: 0 auto;
-}
+  .foil-overview {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 75%;
+    margin: 0 auto;
+  }
 
+  .foil-overview__information {
+    flex: 3 50%;
+    min-width: 50%;
+  }
 
-#foil-overview__request-letter {
-  flex: 1 25%;
-  min-width: 25%;
-  font-size: 1em;
-  align-self: start;
-  
-}
+  #foil-overview__request-letter,
+  #foil-overview__appeal-denial,
+  #foil-overview__timely-appeal {
+    flex: 1 25%;
+    min-width: 25%;
+    font-size: 1em;
+    align-self: start;
+  }
 
-.foil-overview__information {
-  flex: 3 50%;
-  min-width: 50%;
-}
-
-#foil-overview__timely-appeal {
-  flex: 1 25%;
-  min-width: 25%; 
-  font-size: 1em;
-  align-self: start;
-}
-
-#foil-overview__appeal-denial {
-  flex: 1 25%;
-  min-width: 25%; 
-  font-size: 1em;
-  align-self: start;
-}
+  #introduction {
+    max-width: 75%;
+  }
 
 }
 
@@ -473,17 +447,11 @@ h1,
 
   h2 {
     font-size: 2em;
-
   }
 
   h3 {
     font-size: 1.5em;
   }
-
- /* .letter-segment {
-    display: flex;
-    flex-flow: column;
-  } */
 
   .letter-segment {
     display: flex;
@@ -498,28 +466,27 @@ h1,
     flex: 1 15px;
   }
 
-.letter-segment__body {
+  .letter-segment__body {
     padding: 4em;
     margin: 1em;
     flex: 1 15px;
   }
-  
+
   .letter-segment__annotation {
     max-width: 75%;
     text-align: right;
     flex: 1 15px;
   }
 
-  .conclusion{
+  .conclusion {
     margin-top: 4em;
     font-weight: 500;
     font-style: medium;
   }
 
-  #foil-overview__request-letter{
+  #foil-overview__request-letter {
     max-width: 100%;
     margin: 0 auto;
-
   }
 
   #foil-overview__timely-appeal {
