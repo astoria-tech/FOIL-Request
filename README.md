@@ -18,8 +18,6 @@ An important tool in making records available is the Freedom of Information Law 
 
 After her research, Ania found that as someone without a journalism or law background, the process could be overwhelming. She also found that and there are problems in the system that activists would be interested in knowing about. 
 
-![Site Preview: Header, Introduction](https://annastypul.files.wordpress.com/2020/08/foil-header-introduction.gif?w=640)
-
 ### Team members
 
 Ania [researched](https://docs.google.com/document/d/1TshUYKxeS_TzChjOFm8ZvY-kHKq_kg94msalWKY3Al8/edit?usp=sharing) and wrote the copy of the website, and created the [wireframes](https://www.figma.com/file/bEPQchkNVnfYuQSui4FgNT/FOIL-Request?node-id=0%3A1) of the design of the site. She also developed the site, with Chris' help.  
