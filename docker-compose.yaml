@@ -5,7 +5,7 @@ services:
   frontend:
     labels:
       shipyard.route: "/"
-    build: "frontend"
+    build: "."
     environment:
       CI: "true"
       DANGEROUSLY_DISABLE_HOST_CHECK: "true"
