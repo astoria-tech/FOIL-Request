@@ -8,7 +8,7 @@ This project was created by members of the Astoria Digital team, a group of soft
 
 The goal of this project is to teach the FOIL request process, provide resources to complete a request, and understand the system in order to improve it.
 
-You can see the [finished project](https://foil.astoria.digital/)
+You visit the [finished project](https://foil.astoria.digital/)here :)
 
 ### About this project
 
