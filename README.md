@@ -8,8 +8,6 @@ This project was created by members of the Astoria Digital team, a group of soft
 
 The goal of this project is to teach the FOIL request process, provide resources to complete a request, and understand the system in order to improve it.
 
-You visit the [finished project here](https://foil.astoria.digital/) :)
-
 ### About this project
 
 This project explains the Freedom of Information Law Request process in New York State, the process is illustrated by the request letter and the appeal letter. Everything you need to know about the process is included in these letters, and the annotations in the letters serve to give context about the process. The site also includes links to resources to complete requests and get more information and advice from groups that are dedicated to government accountability and transparency.  
@@ -38,11 +36,6 @@ We would like to share this tool so it can supplement the resources that are out
 
 If you'd like to run this site, download the files onto your computer and open them with your browser. You can edit them with a code editor like Visual Studio Code and create a pull request to suggest changes. 
 
-### Contact us
-
-team@astoria.digital
-
-https://astoria.digital
 
 
 
